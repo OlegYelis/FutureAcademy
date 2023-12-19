@@ -1,0 +1,17 @@
+.header {
+  background-color: var(--dark-bg-color);
+  padding: 10px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.mobile-menu {
+  background-color: transparent;
+  border: none;
+  padding: 10px 0 10px 10px;
+  cursor: pointer;
+}

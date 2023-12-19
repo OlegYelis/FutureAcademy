@@ -1,0 +1,36 @@
+.hero {
+  .hero__banner {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .container {
+    background-image: url('../images/hero-descr-bg.webp');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-size: 100%;
+    padding-top: 30px;
+    padding-bottom: 52px;
+  }
+}
+
+.hero__title {
+  color: var(--light-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 17px;
+
+  &:not(:last-child) {
+    margin-bottom: 21px;
+  }
+}
+
+.hero__descr {
+  color: var(--light-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 230px;
+}
