@@ -3,11 +3,14 @@
 }
 
 .categories__message {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 87px;
 }
 
 .categories__txt {
+  position: relative;
   max-width: 300px;
   width: 100%;
   font-size: 14px;
@@ -108,7 +111,7 @@
   position: relative;
   color: var(--dark-text-color);
   font-size: 14px;
-  padding: 12px 14px;
+  padding: 12px 17px;
   margin: 5px;
   background-color: var(--light-bg-color);
   border-radius: 6px;

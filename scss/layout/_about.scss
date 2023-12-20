@@ -1,0 +1,36 @@
+.about__video {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 6px;
+  margin: 0 auto 17px;
+}
+
+.about__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 24px;
+}
+
+.about__item {
+  margin-bottom: 22px;
+}
+
+.about__accent {
+  width: fit-content;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 6.08px;
+  line-height: 0.9;
+
+  background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about__txt {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
